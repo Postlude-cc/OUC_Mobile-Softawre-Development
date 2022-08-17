@@ -1,0 +1,12 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor":"#663355",
+        "navigationBarTitleText": "手动创建第一个小程序"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

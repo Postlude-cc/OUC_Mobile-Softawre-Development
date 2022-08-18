@@ -1,0 +1,12 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor":"#663355",
+        "navigationBarTitleText": "今日天气"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

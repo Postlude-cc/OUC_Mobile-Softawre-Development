@@ -1,0 +1,54 @@
+// index.js
+Page
+(
+{
+    onLoad()
+    {
+        this.get_weather();
+    },
+    data:
+    {
+        region:["山东省","青岛市","崂山区"],
+        now:
+        {
+          tmp:0,
+          cond_txt:'未知',
+          cond_code:'999',
+          hum:0,
+          pres:0,
+          vis:0,
+          wind_dir:0,
+          wind_spd:0,
+          wind_sc:0
+        }
+    },
+    region_change:function(e)
+    {
+      this.setData
+      ({
+        region:e.detail.value
+      });
+      this.get_weather();
+    },
+    get_weather:function()
+    {
+      var that = this ;
+      wx.request
+      ({
+        url: 'https://free-api.heweather.com/s6/weather/now',
+        data:
+        {
+          location:that.data.region[1],
+          key:'913aa68b6d794573a53e5542e63d6de5'
+        },
+        success:function(res)
+        {
+          that.setData
+          ({
+              now:res.data.HeWeather6[0].now
+          });
+        }
+      })
+    }
+}
+)

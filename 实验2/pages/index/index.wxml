@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+    <picker mode="region" bindchange="region_change">
+      <view>
+          {{region}}
+      </view>
+    </picker>
+    <text>{{now.tmp}}℃ {{now.cond_txt}}</text>
+    <image src="/image/images/weather_icon_s1_color/{{now.cond_code}}.png"></image>
+    <view class="detail">
+        <view class="bar">
+            <view class="box">湿度</view>
+            <view class="box">气压</view>
+            <view class="box">能见度</view>
+        </view>
+
+        <view class="bar">
+            <view class="box">{{now.hum}}%</view>
+            <view class="box">{{now.pres}}hPa</view>
+            <view class="box">{{now.vis}}km</view>
+        </view>
+
+        <view class="bar">
+            <view class="box">风向</view>
+            <view class="box">风速</view>
+            <view class="box">风力</view>
+        </view>
+
+        <view class="bar">
+            <view class="box">{{now.wind_dir}}</view>
+            <view class="box">{{now.wind_spd}}km/h</view>
+            <view class="box">{{now.wind_sc}}级</view>
+        </view>
+    </view>
+</view>

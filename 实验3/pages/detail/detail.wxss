@@ -1,0 +1,30 @@
+/* 整体样式 */
+.container{
+  padding: 15rpx;
+}
+ 
+.title{
+  font-size: 35rpx;
+  line-height: 35rpx;
+  font-family: fangsong;
+  text-align: center;
+}
+ 
+.poster image{
+  width: 100%;
+}
+ 
+.content{
+  text-align: left;
+  font-size: 30rpx;
+  line-height: 35rpx;
+}
+ 
+.add_date{
+  font-size: 30rpx;
+  text-align: right;
+  line-height: 30rpx;
+  /* 距离右侧与顶部的距离 */
+  margin-right: 25rpx;
+  margin-top: 20rpx;
+}

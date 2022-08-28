@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--创建父布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#e5e5e5"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--设置控件的宽、高以及背景色-->
+
+    <!--构建第一个列表组-->
+    <LinearLayout
+        android:background="#fff"
+    android:orientation="horizontal"
+    android:layout_height="60dp"
+    android:layout_width="match_parent"
+    android:layout_marginVertical="30dp">
+
+
+    <ImageView
+        android:layout_marginLeft="15dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/icon_pengyou"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_margin="20dp"/>
+
+    <!--设置表中的文字-->
+    <TextView
+        android:text="朋友圈"
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:textColor="#333"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+    <!--创建第二个列表组-->
+<LinearLayout
+android:background="#fff"
+android:orientation="horizontal"
+android:layout_height="60dp"
+android:layout_width="match_parent">
+
+
+<ImageView
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/scan"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_margin="20dp"/>
+
+<!--设置表中的文字-->
+<TextView
+    android:text="扫一扫"
+    android:textSize="18dp"
+    android:gravity="center_vertical"
+    android:textStyle="bold"
+    android:layout_width="0dp"
+    android:textColor="#333"
+    android:layout_weight="1"
+    android:layout_height="match_parent"/>
+
+<ImageView
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="10dp"
+    android:background="@mipmap/right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    <!--创建第三个列表组-->
+<LinearLayout
+android:background="#fff"
+android:orientation="horizontal"
+android:layout_height="60dp"
+android:layout_width="match_parent"
+android:layout_marginBottom="30dp">
+
+
+<ImageView
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/swing"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_margin="20dp"/>
+
+<!--设置表中的文字-->
+<TextView
+    android:text="摇一摇"
+    android:textSize="18dp"
+    android:gravity="center_vertical"
+    android:textStyle="bold"
+    android:layout_width="0dp"
+    android:textColor="#333"
+    android:layout_weight="1"
+    android:layout_height="match_parent"/>
+
+<ImageView
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="10dp"
+    android:background="@mipmap/right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+    <!--创建第四个列表组-->
+<LinearLayout
+android:background="#fff"
+android:orientation="horizontal"
+android:layout_height="60dp"
+android:layout_width="match_parent">
+
+
+<ImageView
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/see"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_margin="20dp"/>
+
+<!--设置表中的文字-->
+<TextView
+    android:text="看一看"
+    android:textSize="18dp"
+    android:gravity="center_vertical"
+    android:textStyle="bold"
+    android:layout_width="0dp"
+    android:textColor="#333"
+    android:layout_weight="1"
+    android:layout_height="match_parent"/>
+
+<ImageView
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="10dp"
+    android:background="@mipmap/right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    <!-- 第五个列表组-->
+<LinearLayout
+android:background="#fff"
+android:orientation="horizontal"
+android:layout_height="60dp"
+android:layout_width="match_parent"
+android:layout_marginBottom="30dp">
+
+
+<ImageView
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/search"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_margin="20dp"/>
+
+<!--设置表中的文字-->
+<TextView
+    android:text="搜一搜"
+    android:textSize="18dp"
+    android:gravity="center_vertical"
+    android:textStyle="bold"
+    android:layout_width="0dp"
+    android:textColor="#333"
+    android:layout_weight="1"
+    android:layout_height="match_parent"/>
+
+<ImageView
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="10dp"
+    android:background="@mipmap/right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
+    <!--创建第六个列表组-->
+<LinearLayout
+android:background="#fff"
+android:orientation="horizontal"
+android:layout_height="60dp"
+android:layout_width="match_parent">
+
+
+<ImageView
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/buy"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_margin="20dp"/>
+
+<!--设置表中的文字-->
+<TextView
+    android:text="购物"
+    android:textSize="18dp"
+    android:gravity="center_vertical"
+    android:textStyle="bold"
+    android:layout_width="0dp"
+    android:textColor="#333"
+    android:layout_weight="1"
+    android:layout_height="match_parent"/>
+
+<ImageView
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="10dp"
+    android:background="@mipmap/right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    <!--创建第七个列表组-->
+<LinearLayout
+android:background="#fff"
+android:orientation="horizontal"
+android:layout_height="60dp"
+android:layout_width="match_parent"
+android:layout_marginBottom="30dp">
+
+
+<ImageView
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/game"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_margin="20dp"/>
+
+<!--设置表中的文字-->
+<TextView
+    android:text="游戏"
+    android:textSize="18dp"
+    android:gravity="center_vertical"
+    android:textStyle="bold"
+    android:layout_width="0dp"
+    android:textColor="#333"
+    android:layout_weight="1"
+    android:layout_height="match_parent"/>
+
+<ImageView
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="10dp"
+    android:background="@mipmap/right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+    <!--创建第八个列表组-->
+<LinearLayout
+android:background="#fff"
+android:orientation="horizontal"
+android:layout_height="60dp"
+android:layout_width="match_parent">
+
+
+<ImageView
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center_vertical"
+    android:background="@mipmap/chengxu"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_margin="20dp"/>
+
+<!--设置表中的文字-->
+<TextView
+    android:text="小程序"
+    android:textSize="18dp"
+    android:gravity="center_vertical"
+    android:textStyle="bold"
+    android:layout_width="0dp"
+    android:textColor="#333"
+    android:layout_weight="1"
+    android:layout_height="match_parent"/>
+
+<ImageView
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="10dp"
+    android:background="@mipmap/right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    </LinearLayout>
